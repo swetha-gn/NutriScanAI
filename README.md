@@ -1,6 +1,4 @@
 
-
-````markdown
 # NutriScanAI: AI-Powered Food Transparency Assistant
 
 ## Project Overview
@@ -51,12 +49,17 @@ Run all cells — you should see:
 ---
 
 ## Dataset Information
+ 
 
-| Dataset                    | Source                                                                   | Description                                           |
-| -------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------- |
-| **Open Food Facts**        | [Kaggle](https://www.kaggle.com/datasets/openfoodfacts/world-food-facts) | Ingredient lists, nutrition facts, veg/non-veg labels |
-| **USDA FoodData Central**  | [USDA](https://fdc.nal.usda.gov/download-datasets.html)                  | Nutritional composition for U.S. food items           |
-| **Sample Dataset (local)** | `data/sample_food.csv`                                                   | 3–5 sample entries for environment verification       |
+| # | Dataset | Source | Purpose | Key Features |
+|:-:|:--|:--|:--|:--|
+| 1 | **World Food Facts** | Kaggle – openfoodfacts/world-food-facts | Ingredient classification baseline | `ingredients_text`, `labels`, `allergens`, `energy_100g` |
+| 2 | **Food Ingredient Lists** | Kaggle – datafiniti/food-ingredient-lists | Ingredient text cleaning & NLP tokenization | `name`, `ingredients`, `categories` |
+| 3 | **Food Ingredients & Allergens** | Kaggle – uom190346a/food-ingredients-and-allergens | Allergen detection | `ingredient`, `allergen` |
+| 4 | **Nutritional Values for Common Foods** | Kaggle – trolukovich/nutritional-values-for-common-foods-and-products | Nutrition estimation | `energy_kcal`, `protein_g`, `fat_g`, `carbohydrate_g` |
+| 5 | **Food Nutrition Dataset** | Kaggle – shrutisaxena/food-nutrition-dataset | Nutrient validation & trend analysis | `Food`, `Calories`, `Protein`, `Fat` |
+
+Each dataset was loaded, validated, and visualized in `setup.ipynb` to confirm functionality.  
 
 *All datasets are publicly available and ethically sourced.*
 
