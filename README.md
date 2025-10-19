@@ -4,7 +4,7 @@
 ## Project Overview
 This project helps consumers quickly understand what’s really inside packaged food items.  
 By combining **Optical Character Recognition (OCR)** and **Natural Language Processing (NLP)**, the system reads ingredient lists from product photos and classifies them as **Vegetarian**, **Non-Vegetarian**, or **Allergen-Containing**.  
-It also provides nutritional insights—such as calories, protein, and fat—by integrating data from **Open Food Facts** and **USDA FoodData Central**.  
+It also provides nutritional insights-such as calories, protein, and fat-by integrating data from **Open Food Facts** and **USDA FoodData Central**.  
 
 The goal is to promote **transparent, personalized, and health-conscious food choices** for vegetarians, people with allergies, and health-focused users.
 
@@ -40,7 +40,7 @@ Open the Jupyter notebook to verify the environment:
 jupyter notebook notebooks/setup.ipynb
 ```
 
-Run all cells — you should see:
+Run all cells - you should see:
 
 * “Environment check successful!”
 * A dataset preview table
