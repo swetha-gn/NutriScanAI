@@ -100,9 +100,7 @@ Ingredients: sugar, milk solids, cocoa butter, soy lecithin (E322), vanilla extr
 
 ## Future Work
 
-* Fine-tune **DistilBERT** for semantic additive understanding.
 * Add allergen alerts (gluten, dairy, nuts).
-* Extend OCR to handle multilingual labels.
 * Deploy as a lightweight **mobile scanner app**.
 
 ---
@@ -121,6 +119,16 @@ nutriscan-ai/
 ├── requirements.txt
 └── README.md
 ```
+## Demo Video
+
+[▶️ Click here to watch the NutriScanAI demo](https://drive.google.com/file/d/1MuC-gmQtbbDb21l7aFz0aRitPCvd-9VH/view?usp=sharing)
+
+You can also preview it inline below:
+
+<video width="700" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1MuC-gmQtbbDb21l7aFz0aRitPCvd-9VH" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
